@@ -15,14 +15,18 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
+          id="lnk"
         >
           Learning React
         </a>
+        <button
+        onClick={exibirHorario}
+        >Ver Horário</button>
       </header>
     </div>
   );
 }
 
-exibirHorario();
+
 
 export default App;
